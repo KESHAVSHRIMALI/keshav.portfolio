@@ -39,18 +39,22 @@
     border-radius: 20px;
 }
 .btn{
-    width: 20%;
-    height: 50px;
     font-size: 170%;
     font-weight: 500;
     font-family: "PoiretOne-Regular";
-    letter-spacing:3px;
-    background:linear-gradient(to right ,green,lightgreen);
-    color:linear-gradient(to right,darkgray,gray);
+    letter-spacing: 3px;
+    background: linear-gradient(to right, green, lightgreen);
+    color: linear-gradient(to right, darkgray, gray);
     border-radius: 10px;
     transition: background-color 0.3s ease;
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    padding:10px 10px;
 }
+
 .btn:hover{
     cursor: pointer;
     color: white;
